@@ -1,0 +1,12 @@
+Package: fassoc
+Type: Package
+Title: VARIANCE COMPONENT BASED MULTI-MARKER ASSOCIATION TEST USING FAMILY AND UNRELATED DATA
+Version: 1.0
+Date: 2012-04-09
+Author: Xuefeng Wang; Nathan Morris 
+Maintainer: Xuefeng Wang <pwxfor@gmail.com>
+Description: Performs variance components based  multi-marker association tests in families.
+License: GPL (>= 2)
+LazyData: yes
+LazyLoad: yes
+Depends: Matrix, MixABEL, emma, CompQuadForm

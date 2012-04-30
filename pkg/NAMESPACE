@@ -1,0 +1,7 @@
+
+importFrom("Matrix", bdiag)
+importFrom("MixABEL", FGLS)
+importFrom("emma", emma.REMLE)#http://mouse.cs.ucla.edu/emma/install.html
+#importFrom("CompQuadForm", pgamma)
+
+exportPattern("^[^\\.]")	
