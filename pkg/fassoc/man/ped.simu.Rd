@@ -14,10 +14,10 @@ ped.simu(hap = hap, pos = pos, nfa = 100, nun = 400, h2 = 0.03,
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{hap}{
-	haplotype information
+	Haplotype information.
 }
   \item{pos}{
-	
+	Anotated position information.
 }
   \item{nfa}{
 Number of nulcear families.
