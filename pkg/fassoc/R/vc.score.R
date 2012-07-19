@@ -13,7 +13,7 @@ vc.score<-function (Tped,n1,n2,app.method="davi") {
 
 		gc()
 		X=matrix(rep(1,nrow(Tped))) #no covariates
-		MLE<-emma.REMLE(y=Tped[,6],X=X, K=K2)  #phone~2K
+		MLE<-.emma.REMLE(y=Tped[,6],X=X, K=K2)  #phone~2K
 		V0=(MLE$vg)*K2+(MLE$ve)*diag(nrow(K2)) 
 
 		## calculate A matrix (gene similarity matrix)

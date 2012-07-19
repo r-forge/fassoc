@@ -9,4 +9,4 @@ Description: Performs variance components based  multi-marker association tests 
 License: GPL (>= 2)
 LazyData: yes
 LazyLoad: yes
-Depends: Matrix, MixABEL, emma, CompQuadForm
+Depends: Matrix, MASS, CompQuadForm

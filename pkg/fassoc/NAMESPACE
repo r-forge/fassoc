@@ -1,7 +1,7 @@
-
+importFrom("MASS", ginv)
 importFrom("Matrix", bdiag)
-importFrom("MixABEL", FGLS)
-importFrom("emma", emma.REMLE)#http://mouse.cs.ucla.edu/emma/install.html
-#importFrom("CompQuadForm", pgamma)
+#importFrom("MixABEL", FGLS)
+#importFrom("emma", emma.REMLE)
+importFrom("CompQuadForm", davies)
 
 exportPattern("^[^\\.]")	
