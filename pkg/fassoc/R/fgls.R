@@ -141,7 +141,7 @@ fgls<-function (Tped,n1,n2) {
 	rownames(betaW) <- colnames(X)
 	dimnames(V) <- list(colnames(X),colnames(X))
 	out <- list(beta=betaW,V=V,T2=T2,df=sum(whichtest),tested=whichtest,
-			meanColX = apply(X,FUN=mean,MAR=2), n = dim(X)[1])
+			meanColX = apply(X,FUN=mean,MARGIN=2), n = dim(X)[1])
 	class(out) <- "FGLS"
 	out
 }

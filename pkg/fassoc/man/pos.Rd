@@ -24,5 +24,5 @@ Anotation / postion information for the sample haplotype data.
 Simulated from the cosi software.
 }
 \references{
-http://www.broad.mit.edu/∼sfs/cosi
+http://www.broad.mit.edu/~sfs/cosi
 }

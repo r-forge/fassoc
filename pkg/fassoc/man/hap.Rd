@@ -16,5 +16,5 @@ This data is sample haplotype data generated from the software cosi.
 Simulated using cosi.
 }
 \references{
-http://www.broad.mit.edu/∼sfs/cosi
+http://www.broad.mit.edu/~sfs/cosi
 }
