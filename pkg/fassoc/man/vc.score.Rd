@@ -43,7 +43,7 @@ Xuefeng Wang
 fgls
 }
 \examples{
-		data(example)
+
 		vc.score(Tped,100,400)
 }
 

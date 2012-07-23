@@ -2,6 +2,6 @@ importFrom("MASS", ginv)
 importFrom("Matrix", bdiag)
 #importFrom("MixABEL", FGLS)
 #importFrom("emma", emma.REMLE)
-importFrom("CompQuadForm", davies)
+#importFrom("CompQuadForm", davies)
 
 exportPattern("^[^\\.]")	

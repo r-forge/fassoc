@@ -42,6 +42,5 @@ Xuefeng Wang
 vc.score
 }
 \examples{
-		data(example)
 		fgls(Tped,100,400)
 }

@@ -51,7 +51,7 @@ Xuefeng Wang
 vc.score
 }
 \examples{
-		data(example)
+
 		Tped<-ped.simu(hap,pos,h2=0.02)
 		vc.score(Tped,100,400)
 		fgls(Tped,100,400)	
